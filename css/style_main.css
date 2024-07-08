@@ -1,0 +1,51 @@
+BODY{
+background: #3c030c;
+color: #000000;
+}
+H1{font-weight: bold; font-size: 100px; font-family : my_font, comic sans;color: #b90f2a;}
+@font-face {
+    font-family: my_font; /* Гарнитура шрифта */
+    src: url(fonts/my_font.otf); /* Путь к файлу со шрифтом */
+   }
+H2{
+font-size: 28px;
+}
+DT{font-size: 24px; font-family : my_font, comic sans;}
+P{
+font-style : comic sans;
+font-size : 20px;
+text-align: justify;
+text-indent: 35px;
+padding: 1px 50px;
+}
+.wrapper {
+    text-align: left;
+    font-size : 20px;
+}
+table {
+   border: 1px solid #59252d;
+}
+/* границы ячеек первого ряда таблицы */
+th {
+   border: 1px solid #59252d;
+   font-size : 24px;
+}
+/* границы ячеек тела таблицы */
+td {
+   border: 1px solid #59252d;
+   font-size : 20px;
+}
+<style>
+
+.table_center_by_css {
+
+width: 300px;
+
+border: 1px solid #000;
+
+margin: auto;
+
+}
+
+</style>
+
